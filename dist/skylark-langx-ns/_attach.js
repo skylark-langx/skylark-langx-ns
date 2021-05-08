@@ -5,5 +5,5 @@
  * @link www.skylarkjs.org
  * @license MIT
  */
-define([],function(){return function(n,t,r){"string"==typeof t&&(t=t.split("."));for(var e=t.length,f=n,i=0,o=t[i++];i<e;)f=f[o]=f[o]||{},o=t[i++];return f[o]=r}});
+define([],function(){return function(n,t,r){"string"==typeof t&&(t=t.split("."));for(var e=t.length,f=n,i=0,o=t[i++];i<e;)f=f[o]=f[o]||{},o=t[i++];return f[o]=r||{},f[o]}});
 //# sourceMappingURL=sourcemaps/_attach.js.map

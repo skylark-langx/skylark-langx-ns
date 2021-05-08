@@ -13,6 +13,7 @@ define([],function(){
             name = path[i++];
         }
 
-        return ns[name] = obj2;
+        ns[name] = obj2 || {};
+        return ns[name];
     }
 });
