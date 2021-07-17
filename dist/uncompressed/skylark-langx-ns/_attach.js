@@ -13,7 +13,14 @@ define([],function(){
             name = path[i++];
         }
 
-        ns[name] = obj2 || {};
+        if (ns[name]) {
+            if (obj2) {
+                throw new Error("This namespace already exists:" + path);
+            }
+
+        } else {
+            ns[name] = obj2 || {};
+        }
         return ns[name];
     }
 });
