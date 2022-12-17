@@ -19,7 +19,8 @@
 
   ],
   "exports": {
-    "./": "./dist/uncompressed/skylark-langx-ns/"
+    ".": "./dist/uncompressed/skylark-langx-ns/main.js",
+    "./*": "./dist/uncompressed/skylark-langx-ns/*.js"
   },
   "author": "Hudaokeji Co.,Ltd",
   "license": "MIT",
