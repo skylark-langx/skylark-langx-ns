@@ -9,7 +9,7 @@
   "homepage": "www.skylarkjs.org",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skylarklangx/skylark-langx-ns.git"
+    "url": "https://github.com/skylarklangx/skylark-langx-ns.git"
   },
   "keywords": [
     "skylark",
